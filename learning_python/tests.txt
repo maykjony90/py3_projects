@@ -1,0 +1,3 @@
+name => mayk
+job => unemployed
+reason => retirement

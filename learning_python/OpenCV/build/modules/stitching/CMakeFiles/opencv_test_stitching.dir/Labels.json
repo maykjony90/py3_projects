@@ -1,0 +1,60 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/stitching/test/ocl/test_warpers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/stitching/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/stitching/test/test_blenders.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/stitching/test/test_matchers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/stitching/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_stitching",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_stitching"
+	}
+}

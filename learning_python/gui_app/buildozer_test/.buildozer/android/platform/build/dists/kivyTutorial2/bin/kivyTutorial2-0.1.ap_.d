@@ -1,0 +1,19 @@
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/kivyTutorial2-0.1.ap_ \
+ : /home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/values/strings.xml \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable-hdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable-mdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable-xhdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/layout/chooser_item.xml \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/layout/project_empty.xml \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/layout/project_chooser.xml \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/layout/main.xml \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable/icon.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable/presplash.jpg \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/res/drawable-xxhdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/res/drawable-hdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/res/drawable-mdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/res/drawable/icon.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/res/drawable-xxhdpi/ic_launcher.png \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/assets/private.mp3 \
+/home/jony/Documents/python_projects/py3projects/learning_python/gui_app/buildozer_test/.buildozer/android/platform/build/dists/kivyTutorial2/bin/AndroidManifest.xml \

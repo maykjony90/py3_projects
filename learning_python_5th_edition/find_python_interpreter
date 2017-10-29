@@ -1,0 +1,6 @@
+#!/home/jony/anaconda3/envs/py3/bin/python
+# above line simply tell the system where to
+# look for python interpreter
+
+print('You can execute files that doesn\'t have .py extension' +
+      ' with python!')

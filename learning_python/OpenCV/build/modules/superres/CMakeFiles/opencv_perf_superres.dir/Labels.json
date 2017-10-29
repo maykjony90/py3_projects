@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/superres/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/superres/perf/perf_superres.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/superres/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_superres",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_superres"
+	}
+}

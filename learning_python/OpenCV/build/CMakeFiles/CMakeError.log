@@ -1,0 +1,349 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07b1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07b1e.dir/build.make CMakeFiles/cmTC_07b1e.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07b1e.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_07b1e.dir/src.cxx.o -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_07b1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07b1e.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_07b1e.dir/src.cxx.o  -o cmTC_07b1e -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd2a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd2a2.dir/build.make CMakeFiles/cmTC_bd2a2.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd2a2.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_bd2a2.dir/src.cxx.o -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_bd2a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2a2.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_bd2a2.dir/src.cxx.o  -o cmTC_bd2a2 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4fcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4fcc.dir/build.make CMakeFiles/cmTC_c4fcc.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4fcc.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_c4fcc.dir/src.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_c4fcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4fcc.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_c4fcc.dir/src.c.o  -o cmTC_c4fcc -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec1dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec1dd.dir/build.make CMakeFiles/cmTC_ec1dd.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec1dd.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_ec1dd.dir/src.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_ec1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec1dd.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_ec1dd.dir/src.c.o  -o cmTC_ec1dd -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da2c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da2c5.dir/build.make CMakeFiles/cmTC_da2c5.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da2c5.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_da2c5.dir/src.cxx.o -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_da2c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da2c5.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_da2c5.dir/src.cxx.o  -o cmTC_da2c5 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e581/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e581.dir/build.make CMakeFiles/cmTC_2e581.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e581.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_2e581.dir/src.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_2e581
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e581.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_2e581.dir/src.c.o  -o cmTC_2e581 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91f74.dir/build.make CMakeFiles/cmTC_91f74.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f74.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_91f74.dir/src.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_91f74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f74.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_91f74.dir/src.c.o  -o cmTC_91f74 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83dc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83dc4.dir/build.make CMakeFiles/cmTC_83dc4.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83dc4.dir/TestEndianess.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_83dc4.dir/TestEndianess.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_83dc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83dc4.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTC_83dc4.dir/TestEndianess.c.o  -o cmTC_83dc4 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file /home/jony/anaconda3/envs/py3/include/libpng/png.h exists failed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d00f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d00f.dir/build.make CMakeFiles/cmTC_0d00f.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d00f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_0d00f.dir/CheckIncludeFile.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:62: fatal error: /home/jony/anaconda3/envs/py3/include/libpng/png.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0d00f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0d00f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0d00f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0d00f/fast' failed
+make: *** [cmTC_0d00f/fast] Error 2
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf477/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf477.dir/build.make CMakeFiles/cmTC_cf477.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf477.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_cf477.dir/CheckIncludeFile.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_cf477.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cf477.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cf477.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf477/fast' failed
+make: *** [cmTC_cf477/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fb2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fb2c.dir/build.make CMakeFiles/cmTC_5fb2c.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fb2c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_5fb2c.dir/CheckIncludeFile.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_5fb2c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5fb2c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5fb2c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5fb2c/fast' failed
+make: *** [cmTC_5fb2c/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7eff3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7eff3.dir/build.make CMakeFiles/cmTC_7eff3.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7eff3.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections  -fvisibility-inlines-hidden  -O3 -DNDEBUG   -Wno-unused-const-variable -o CMakeFiles/cmTC_7eff3.dir/src.cxx.o -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
+Linking CXX executable cmTC_7eff3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eff3.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections  -fvisibility-inlines-hidden  -O3 -DNDEBUG    CMakeFiles/cmTC_7eff3.dir/src.cxx.o  -o cmTC_7eff3 -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05c9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05c9a.dir/build.make CMakeFiles/cmTC_05c9a.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05c9a.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles/cmTC_05c9a.dir/src.cxx.o -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_05c9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c9a.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    CMakeFiles/cmTC_05c9a.dir/src.cxx.o  -o cmTC_05c9a -rdynamic 
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1312/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1312.dir/build.make CMakeFiles/cmTC_f1312.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1312.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_f1312.dir/CheckIncludeFile.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f1312.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f1312.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f1312.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f1312/fast' failed
+make: *** [cmTC_f1312/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd0f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd0f8.dir/build.make CMakeFiles/cmTC_bd0f8.dir/build
+make[1]: Entering directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd0f8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_bd0f8.dir/CheckIncludeFile.c.o   -c /home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_bd0f8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bd0f8.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bd0f8.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bd0f8/fast' failed
+make: *** [cmTC_bd0f8/fast] Error 2
+
+

@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/objdetect/perf/opencl/perf_hogdetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/objdetect/perf/opencl/perf_cascades.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/objdetect/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/objdetect/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_objdetect",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_objdetect"
+	}
+}

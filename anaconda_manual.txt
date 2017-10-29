@@ -1,0 +1,31 @@
+conda install package_name
+ex. > conda install numpy
+ex. > conda install pandas scipy numpy // multiple package installation
+ex. > conda install numpy=1.10 // specific version
+
+conda remove package_name
+
+conda update package_name
+conda update --all
+
+conda list
+
+conda search search_term // to look for a package name
+ex. > conda search beatifulsoupconda
+
+conda create -n env_name list_of_packages
+conda create -n py3 python=3
+conda create -n py2 python=2
+conda create -n py python=3.3
+
+source activate my_env
+in an environment:
+conda install package_name
+source deactivate
+
+conda env export > environment.yaml // to save packages in an env
+conda env create -f environment.yaml // create new env with same packages listed
+
+conda env list
+
+conda env remove -n env_name

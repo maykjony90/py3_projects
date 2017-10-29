@@ -1,0 +1,13 @@
+# Target labels
+ Main
+ opencv_imgcodecs
+ PerfTest
+# Source files and their labels
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/imgcodecs/perf/perf_main.cpp
+ Main
+ opencv_imgcodecs
+ PerfTest
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/imgcodecs/perf/perf_precomp.hpp
+ Main
+ opencv_imgcodecs
+ PerfTest

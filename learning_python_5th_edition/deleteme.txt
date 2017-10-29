@@ -1,0 +1,5 @@
+total 16
+-rw-rw-r-- 1 jony jony    0 Oct 17 23:34 deleteme.txt
+-rw-rw-r-- 1 jony jony 1380 Oct 17 23:25 script1.ipynb
+-rw-rw-r-- 1 jony jony  297 Oct 17 23:23 script1.py
+-rw-rw-r-- 1 jony jony  103 Oct 17 23:33 script2.py

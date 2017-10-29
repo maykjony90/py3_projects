@@ -1,0 +1,33 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/imgcodecs/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/imgcodecs/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_imgcodecs",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_imgcodecs"
+	}
+}

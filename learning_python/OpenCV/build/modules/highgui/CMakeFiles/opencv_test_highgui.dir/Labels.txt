@@ -1,0 +1,18 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/jony/Documents/python_projects/py3projects/learning_python/udacity_self_driving_car/OpenCV/build/modules/highgui/opencv_test_highgui_automoc.cpp

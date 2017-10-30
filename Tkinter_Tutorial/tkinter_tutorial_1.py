@@ -22,7 +22,7 @@ class Window(Frame):
 
 
         # create a button object with text "quit"
-        quitButton = Button(self, text="Quit", width=20, command=self.clientExit)
+        quitButton = Button(self, text="Quit", width=20, command=self.quit)
         # place the button on the top left corner
         # quitButton.place(x=0, y=0)
         # or you can place it at the center
@@ -40,7 +40,7 @@ class Window(Frame):
 		# with demonstration purpose:
         file.add_command(label='Save', command=self.clientSave)
         # add a command to file menu
-        file.add_command(label='Exit', command=self.clientExit)
+        file.add_command(label='Exit', command=self.quit)
         
         # add file to the menu by cascading
         menu.add_cascade(label='File', menu=file)
@@ -101,8 +101,8 @@ root = Tk()
 # decide the initial size of the app window
 root.geometry("400x300")
 
-# MISSING
+# call the function to start the program
 app = Window(root)
 
-# MISSING
+# Main frame should be present. To enable it we take it into a loop
 root.mainloop()

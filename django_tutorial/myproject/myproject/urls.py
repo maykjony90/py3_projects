@@ -17,13 +17,25 @@ from django.conf.urls import url
 from django.contrib import admin
 
 # DEGISIKLIK, 1 ln
+# boards klasorundeski views dosyasinin yukle
 from boards import views
 
 urlpatterns = [
-    # DEGISIKLIK, 2 ln
+    # DEGISIKLIK, 3 ln
     # BU BIR LIST, BU YUZDEN VIRGUL KOYMAYI UNUTMA!!!!
+    # REGEX formatinda yaziyoruz URL'leri.
+    # burada site uzantilarinin nasil olacagini ve nereden 
+    # cagiralacaklarini belirtiyoruz. boards klasorundeski views dosyasinin
+    # icindeki ilgili fonksyionlari cagiriyoruz.
     url(r'^$', views.home, name='home'),
-    
-    url(r'^about/$', views.about, name='about'),
+    # Below is a dynamic URL, pk stands for Primary Key
+    url(r'^boards/(?P<pk>\d+)/$', views.board_topics, name='board_topics'),
+    url(r'^boards/(?P<pk>\d+)/new/$', views.new_topic, name='new_topic'),
+    # we have to define '/about/' URL, we have to do it before
+    # the username URL pattern to avoid any conflict with usernames
+    # like 'about'.
+    # url(r'^about/$', views.about, name='about'),
+    # url(r'^about/author/$', views.about_author, name='about_author'),
+    # url(r'^about/author/mayk/$', views.about_mayk, name='about_mayk'),
     url(r'^admin/', admin.site.urls),
 ]

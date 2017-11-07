@@ -31,13 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # admin modul contains the settings
+    # it's ready to use module, we don't need to create an
+    # admin explicitly.
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    # To manage static file like Js, CSS...
     'django.contrib.staticfiles',
-    # DEGISIKLIK
+    # sudo pip3.6 install django-widget-tweaks app
+    'widget_tweaks',
+    # add boards folder to installed apps list
     'boards'
 ]
 
@@ -56,7 +62,8 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # show the path to the folder within templates reside.
+        'DIRS': [ os.path.join(BASE_DIR, 'templates') ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,3 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# DEGISIKLIK, 1 ln
+# Tell where to find static files
+STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static')]

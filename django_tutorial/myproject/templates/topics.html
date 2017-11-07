@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+<!-- In the topics.html template, we are changing the block title default value. Notice that we can reuse the default value of the block by calling block.super . So here we are playing with the website title, which we defined in the base.html as “Django Boards.” So for the “Python” board page, the title will be “Python - Django Boards,” for the “Random” board the title will be “Random - Django Boards.” -->
+{% block title %}
+	{{ board.name }} - {{ block.super }}
+{% endblock%}
+
+{% block breadcrumb %}
+	<li class="breadcrumb-item">
+		<a href="{% url 'home' %}">Boards</a>
+	</li>
+	<li class="breadcrumb-item active">{{ board.name }}</li>
+{% endblock %}
+
+{% block content %}
+	<div class="mb-4">
+		<a href="{% url 'new_topic' board.pk %}" class="btn btn-primary">New Topic</a>
+	</div>
+	<table class="table">
+		<thead class="thead-inverse">
+			<tr>
+				<th>Topic</th>
+				<th>Starter</th>
+				<th>Replies</th>
+				<th>Views</th>
+				<th>Last Updated</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for topic in board.topics.all %}
+			<tr>
+				<td>{{ topic.subject }}</td>
+				<td>{{ topic.starter.username }}</td>
+				<td>0</td>
+				<td>0</td>
+				<td>{{ topic.last_updated }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}

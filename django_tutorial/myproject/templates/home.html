@@ -1,0 +1,33 @@
+<!-- The first line in the home.html template is  extends 'base.html' . This tag is telling Django to use the base.html template as a master page. After that, we are using the the blocks to put the unique content of the page. -->
+{% extends 'base.html' %}
+
+{% block breadcrumb %}
+	<li class="breadcrumb-item active">Boards</li>
+{% endblock %}
+
+{% block content %}
+	<table class="table">
+		<thead class="thead-inverse">
+			<tr>
+				<th>Board</th>
+				<th>Posts</th>
+				<th>Topics</th>
+				<th>Last Post</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Django Template Language kullanarak boards dosyasindaki nesnelerin uzerindeki tek tek gecerek verileri cek -->
+			{% for board in boards %}
+			<tr>
+				<td>
+					<a href="{% url 'board_topics' board.pk %}" >{{ board.name }}</a>
+					<small class="text-muted d-block">{{ board.description }}</small></td>
+					<td class="align-middle">0</td>
+					<td class="align-middle">0</td>
+					<td></td>
+			</tr>
+			<!-- DTL(Django Template Language)'de for looplarinin nerede bittigini belirtmemiz gerekiyor -->
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}
